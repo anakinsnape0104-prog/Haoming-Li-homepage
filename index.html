@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta.title">黎浩明 | 个人主页</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#home" data-page-link="home">Haoming Li</a>
+      <button class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false" data-i18n-aria-label="nav.open">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" role="tablist" aria-label="Section navigation">
+        <a href="#home" data-page-link="home" class="active" data-i18n="nav.home">首页</a>
+        <a href="#about" data-page-link="about" data-i18n="nav.about">关于我</a>
+        <a href="#education" data-page-link="education" data-i18n="nav.education">教育背景</a>
+        <a href="#research" data-page-link="research" data-i18n="nav.research">科研/竞赛经历</a>
+        <a href="#internship" data-page-link="internship" data-i18n="nav.internship">实习经历</a>
+        <a href="#student-work" data-page-link="student-work" data-i18n="nav.studentWork">学生工作</a>
+        <a href="#honors" data-page-link="honors" data-i18n="nav.honors">荣誉奖项</a>
+        <a href="#photography" data-page-link="photography" data-i18n="nav.photography">摄影作品</a>
+        <a href="#practice" data-page-link="practice" data-i18n="nav.practice">社会实践</a>
+        <a href="#life" data-page-link="life" data-i18n="nav.life">生活照</a>
+        <a href="#contact" data-page-link="contact" data-i18n="nav.contact">联系方式</a>
+      </div>
+      <div class="utility-actions" aria-label="Display settings">
+        <button class="utility-button" type="button" data-lang-toggle aria-label="Switch language" data-i18n-aria-label="controls.langLabel">
+          <span data-i18n="controls.langButton">EN</span>
+        </button>
+        <button class="utility-button" type="button" data-theme-toggle aria-label="切换深浅色" data-i18n-aria-label="controls.themeLabel">
+          <span data-i18n="controls.themeButton">暗色</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="page active" id="home" data-page="home">
+      <div class="home-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="home.eyebrow">广东外语外贸大学</p>
+          <h1 data-i18n="home.name">黎浩明</h1>
+          <p class="hero-role" data-i18n="home.role">金融工程专业学生 / 新闻中心负责人 / 摄影爱好者</p>
+          <p class="hero-summary" data-i18n="home.summary">在金融工程、量化研究、学生组织与影像表达之间持续探索，用数据理解市场，也用镜头记录现场。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#research" data-page-link="research" data-i18n="home.researchButton">科研与竞赛</a>
+            <a class="button ghost" href="#life" data-page-link="life" data-i18n="home.lifeButton">生活照片</a>
+          </div>
+        </div>
+        <figure class="hero-portrait reveal">
+          <img src="assets/portrait-main.jpg" alt="黎浩明个人照片" data-lightbox data-i18n-alt="alt.portrait">
+        </figure>
+      </div>
+      <div class="quick-stats reveal" aria-label="Profile overview">
+        <article>
+          <span>GPA</span>
+          <strong>3.68 / 4.0</strong>
+        </article>
+        <article>
+          <span data-i18n="home.majorLabel">专业</span>
+          <strong data-i18n="home.major">金融工程</strong>
+        </article>
+        <article>
+          <span data-i18n="home.focusLabel">方向</span>
+          <strong data-i18n="home.focus">量化研究 / 影像传播</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="page" id="about" data-page="about">
+      <div class="page-heading reveal">
+        <p class="eyebrow">About</p>
+        <h2 data-i18n="about.title">关于我</h2>
+        <p data-i18n="about.lead">我关注金融科技、资本市场与公共表达，也重视把专业学习转化为真实项目里的执行力。</p>
+      </div>
+      <div class="feature-grid four">
+        <article class="reveal">
+          <span>01</span>
+          <h3 data-i18n="about.card1Title">学习与研究</h3>
+          <p data-i18n="about.card1Body">金融工程专业背景，课程覆盖计量经济学、公司金融、金融经济学、量化投资与 Python。具备 Stata 实证回归、数据处理和论文框架搭建经验。</p>
+        </article>
+        <article class="reveal">
+          <span>02</span>
+          <h3 data-i18n="about.card2Title">学生工作</h3>
+          <p data-i18n="about.card2Body">担任金融学院团委新闻中心正部长，负责活动拍摄、新闻稿制作与宣传策划，也在模拟联合国协会参与大型会议筹办。</p>
+        </article>
+        <article class="reveal">
+          <span>03</span>
+          <h3 data-i18n="about.card3Title">摄影表达</h3>
+          <p data-i18n="about.card3Body">长期参与校园活动、会议现场与旅行场景的影像记录，关注光线、秩序和人物状态，让影像服务于叙事与传播。</p>
+        </article>
+        <article class="reveal">
+          <span>04</span>
+          <h3 data-i18n="about.card4Title">社会实践</h3>
+          <p data-i18n="about.card4Body">参与暑期“百千万工程”社会实践，在调研、拍摄、材料整理和成果传播中连接专业能力与基层观察。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="page" id="education" data-page="education">
+      <div class="page-heading reveal">
+        <p class="eyebrow">Education</p>
+        <h2 data-i18n="education.title">教育背景</h2>
+        <p data-i18n="education.lead">广东外语外贸大学金融学院，金融工程专业，本科在读。</p>
+      </div>
+      <div class="split-layout">
+        <article class="detail-card large reveal">
+          <p class="time" data-i18n="education.time">2023.09 - 2027.07</p>
+          <h3 data-i18n="education.school">广东外语外贸大学 / 金融学院</h3>
+          <p data-i18n="education.body">金融工程专业，GPA 3.68/4.0。主修课程包括高等代数、Python、计量经济学、公司金融、金融经济学、量化投资等。</p>
+          <div class="tag-row">
+            <span>Python 96</span>
+            <span data-i18n="education.course1">计量经济学 94</span>
+            <span data-i18n="education.course2">公司金融 95</span>
+            <span data-i18n="education.course3">量化投资 100</span>
+          </div>
+          <a class="text-link" href="documents/transcript-english.pdf" target="_blank" rel="noopener" data-i18n="education.transcript">查看英文成绩单</a>
+        </article>
+        <div class="stacked-cards">
+          <article class="detail-card reveal">
+            <h3 data-i18n="education.langTitle">语言能力</h3>
+            <p data-i18n="education.langBody">大学英语四级 506，雅思 6.5。</p>
+          </article>
+          <article class="detail-card reveal">
+            <h3 data-i18n="education.skillTitle">专业技能</h3>
+            <p data-i18n="education.skillBody">Python 良好，Stata 熟练，能够完成数据清洗、面板回归、稳健性检验与结果解释。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="research" data-page="research">
+      <div class="page-heading reveal">
+        <p class="eyebrow">Research & Competition</p>
+        <h2 data-i18n="research.title">科研/竞赛经历</h2>
+        <p data-i18n="research.lead">从实证研究到金融科技竞赛，训练数据分析、模型构建、结果表达与答辩呈现。</p>
+      </div>
+      <div class="research-layout">
+        <article class="detail-card large reveal">
+          <p class="time" data-i18n="research.paperTime">2025.04 - 2026.04</p>
+          <h3 data-i18n="research.paperTitle">大学生创新创业训练计划 / 核心成员</h3>
+          <p data-i18n="research.paperBody1">参与论文《ESG表现与企业市场价值：来自中国资本市场的经验证据》，负责数据收集、处理及 Stata 实证回归分析，协助确定论文主体框架。</p>
+          <p data-i18n="research.paperBody2">研究基于沪深300非金融类上市公司 2018-2024 年数据，使用固定效应模型、稳健性检验与工具变量法，分析 ESG 表现对企业价值的影响及行业、企业特征异质性。</p>
+          <a class="text-link" href="documents/research-esg-market-value.docx" target="_blank" rel="noopener" data-i18n="research.paperLink">查看论文成果</a>
+        </article>
+        <article class="detail-card award-preview reveal">
+          <img src="assets/award-digquant.jpg" alt="点宽杯一等奖证书" data-lightbox data-i18n-alt="alt.digquant">
+          <div>
+            <p class="time" data-i18n="research.digquantTime">2025.11 - 2025.12</p>
+            <h3 data-i18n="research.digquantTitle">第五届“点宽杯”全国高校金融科技黑客松大赛一等奖</h3>
+            <p data-i18n="research.digquantBody">构建涵盖估值、盈利能力、成长性与动量等维度的因子体系，并在回测阶段关注年化收益、信息比率与最大回撤等指标；参与答辩 PPT 制作与演讲。</p>
+          </div>
+        </article>
+        <article class="detail-card award-preview reveal">
+          <img src="assets/award-stat-modeling.jpg" alt="广东省大学生统计调查及建模竞赛优秀奖证书" data-lightbox data-i18n-alt="alt.statAward">
+          <div>
+            <p class="time">2025.08</p>
+            <h3 data-i18n="research.statTitle">广东省大学生统计调查及建模竞赛优秀奖</h3>
+            <p data-i18n="research.statBody">参赛作品《ESG 表现对投资组合优化的影响机制研究》，围绕 ESG 指标与投资组合优化开展统计调查、数据建模与结果表达训练。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="page" id="internship" data-page="internship">
+      <div class="page-heading reveal">
+        <p class="eyebrow">Internship</p>
+        <h2 data-i18n="internship.title">实习经历</h2>
+        <p data-i18n="internship.lead">在银行、证券、会展国际服务与期货量化客户支持中积累金融服务、市场研究和跨场景沟通经验。</p>
+      </div>
+      <div class="timeline">
+        <article class="reveal">
+          <p class="time" data-i18n="internship.i1Time">2026.03 - 至今</p>
+          <h3 data-i18n="internship.i1Title">国泰君安期货广东分公司 / 量化客户支持</h3>
+          <p data-i18n="internship.i1Body">负责量化客户需求收集、技术支持与投研支持，持续提供线上线下服务；梳理客户业务与技术需求，协助系统接入、硬件托管及优化改进建议。</p>
+        </article>
+        <article class="reveal">
+          <p class="time" data-i18n="internship.i2Time">2025.10 - 2025.11</p>
+          <h3 data-i18n="internship.i2Title">中国对外贸易中心（集团） / 国际 VIP 服务事务实习生</h3>
+          <p data-i18n="internship.i2Body">全英语参与 VIP 采购商招商与服务流程，包括答疑、调研、与会登记、数据统计、现场接待及沙龙活动组织。</p>
+        </article>
+        <article class="reveal">
+          <p class="time" data-i18n="internship.i3Time">2025.07 - 2025.08</p>
+          <h3 data-i18n="internship.i3Title">中国银行顺德分行 / 营业部助理</h3>
+          <p data-i18n="internship.i3Body">负责智能柜台终端操作与客户引导，进行可疑交易人工复核；参与数字人民币与个人养老金账户推广，完成客户信息核验及场景化使用指导。</p>
+        </article>
+        <article class="reveal">
+          <p class="time" data-i18n="internship.i4Time">2024 暑期</p>
+          <h3 data-i18n="internship.i4Title">国投证券股份有限公司佛山分公司 / 实习生助理</h3>
+          <p data-i18n="internship.i4Body">使用 Choice 金融终端跟踪财经新闻与市场动态，支持营业部市场信息收集与趋势洞察，并参与市场分析简报撰写。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="page" id="student-work" data-page="student-work">
+      <div class="page-heading reveal">
+        <p class="eyebrow">Student Work</p>
+        <h2 data-i18n="student.title">学生工作</h2>
+        <p data-i18n="student.lead">围绕组织协调、内容传播与大型活动执行，形成稳定的项目推进能力。</p>
+      </div>
+      <div class="timeline">
+        <article class="reveal">
+          <p class="time" data-i18n="student.s1Time">2024.09 - 2025.07</p>
+          <h3 data-i18n="student.s1Title">广外金融学院团委新闻中心 / 正部长</h3>
+          <p data-i18n="student.s1Body">管理部门拍摄、新闻稿制作与活动安排，参与策划摄影征集、大四毕业晚会开场视频等内容项目。</p>
+        </article>
+        <article class="reveal">
+          <p class="time" data-i18n="student.s2Time">2024.09 - 2026.07</p>
+          <h3 data-i18n="student.s2Title">广外模拟联合国协会 / 行政部副部长、宣传部副部长</h3>
+          <p data-i18n="student.s2Body">负责与学院领导及相关部门对接活动事宜，统筹会务安排与资源协调；同时负责活动拍摄与宣传物料制作，参与第16届、第17届广外模拟联合国大会筹办。</p>
+        </article>
+        <article class="reveal">
+          <p class="time">Campus Media</p>
+          <h3 data-i18n="student.s3Title">校园影像与宣传项目</h3>
+          <p data-i18n="student.s3Body">围绕活动现场、人物采访、会议传播等场景进行内容采集和视觉呈现，兼顾新闻表达和组织传播效率。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="page" id="honors" data-page="honors">
+      <div class="page-heading reveal">
+        <p class="eyebrow">Honors</p>
+        <h2 data-i18n="honors.title">荣誉奖项</h2>
+        <p data-i18n="honors.lead">奖学金、综合荣誉、竞赛奖项与实践成果。</p>
+      </div>
+      <div class="honor-grid">
+        <article class="honor-card reveal">
+          <p>2025</p>
+          <h3 data-i18n="honors.h1Title">校级综合一等奖学金</h3>
+          <span data-i18n="honors.school">广东外语外贸大学</span>
+          <a href="documents/scholarship-2025-first.pdf" target="_blank" rel="noopener" data-i18n="honors.viewCert">查看证书</a>
+        </article>
+        <article class="honor-card reveal">
+          <p>2025</p>
+          <h3 data-i18n="honors.h2Title">三好学生标兵</h3>
+          <span data-i18n="honors.school">广东外语外贸大学</span>
+          <a href="documents/model-merit-student-2025.pdf" target="_blank" rel="noopener" data-i18n="honors.viewCert">查看证书</a>
+        </article>
+        <article class="honor-card reveal">
+          <p>2024</p>
+          <h3 data-i18n="honors.h3Title">校级综合二等奖学金</h3>
+          <span data-i18n="honors.school">广东外语外贸大学</span>
+          <a href="documents/scholarship-2024-second.pdf" target="_blank" rel="noopener" data-i18n="honors.viewCert">查看证书</a>
+        </article>
+        <article class="honor-card reveal">
+          <p>2024</p>
+          <h3 data-i18n="honors.h4Title">三好学生</h3>
+          <span data-i18n="honors.school">广东外语外贸大学</span>
+          <a href="documents/merit-student-2024.pdf" target="_blank" rel="noopener" data-i18n="honors.viewCert">查看证书</a>
+        </article>
+        <article class="honor-card reveal">
+          <p>2025</p>
+          <h3 data-i18n="honors.h5Title">点宽杯金融科技黑客松一等奖</h3>
+          <span data-i18n="honors.h5Body">基于 LightGBM 的沪深300多因子选股</span>
+        </article>
+        <article class="honor-card reveal">
+          <p>2025</p>
+          <h3 data-i18n="honors.h6Title">广东省大学生统计调查及建模竞赛优秀奖</h3>
+          <span data-i18n="honors.h6Body">统计调查与建模方向</span>
+        </article>
+        <article class="honor-card reveal">
+          <p>2024</p>
+          <h3 data-i18n="honors.h7Title">暑期百千万实践活动优秀个人</h3>
+          <span data-i18n="honors.h7Body">社会实践与成果传播</span>
+        </article>
+        <article class="honor-card reveal">
+          <p>Video</p>
+          <h3 data-i18n="honors.h8Title">三下乡视频作品</h3>
+          <span data-i18n="honors.h8Body">《含情明城 光沐沧江》</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="page" id="photography" data-page="photography">
+      <div class="page-heading reveal">
+        <p class="eyebrow">Photography</p>
+        <h2 data-i18n="photo.title">摄影作品</h2>
+        <p data-i18n="photo.lead">记录城市、建筑、旅途与公共空间中的光线和秩序。</p>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-card wide reveal"><img src="assets/gallery-01.jpg" alt="摄影作品 1" loading="lazy" data-lightbox><figcaption data-i18n="photo.c1">故宫屋脊</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-02.jpg" alt="摄影作品 2" loading="lazy" data-lightbox><figcaption data-i18n="photo.c2">城市结构</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-03.jpg" alt="摄影作品 3" loading="lazy" data-lightbox><figcaption data-i18n="photo.c3">繁华与平常</figcaption></figure>
+        <figure class="photo-card tall reveal"><img src="assets/gallery-04.jpg" alt="摄影作品 4" loading="lazy" data-lightbox><figcaption data-i18n="photo.c4">夜色楼宇</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-05.jpg" alt="摄影作品 5" loading="lazy" data-lightbox><figcaption data-i18n="photo.c5">街巷光影</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-06.jpg" alt="摄影作品 6" loading="lazy" data-lightbox><figcaption data-i18n="photo.c6">纵深</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-07.jpg" alt="摄影作品 7" loading="lazy" data-lightbox><figcaption data-i18n="photo.c7">金色匾额</figcaption></figure>
+        <figure class="photo-card wide reveal"><img src="assets/gallery-08.jpg" alt="摄影作品 8" loading="lazy" data-lightbox><figcaption data-i18n="photo.c8">桥与轮廓</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-09.jpg" alt="摄影作品 9" loading="lazy" data-lightbox><figcaption data-i18n="photo.c9">城市漫游</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-10.jpg" alt="摄影作品 10" loading="lazy" data-lightbox><figcaption data-i18n="photo.c10">楼阁层叠</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-11.jpg" alt="摄影作品 11" loading="lazy" data-lightbox><figcaption data-i18n="photo.c11">深巷金光</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-12.jpg" alt="摄影作品 12" loading="lazy" data-lightbox><figcaption data-i18n="photo.c12">石窟静观</figcaption></figure>
+        <figure class="photo-card wide reveal"><img src="assets/gallery-13.jpg" alt="摄影作品 13" loading="lazy" data-lightbox><figcaption data-i18n="photo.c13">空间切片</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-14.jpg" alt="摄影作品 14" loading="lazy" data-lightbox><figcaption data-i18n="photo.c14">建筑肌理</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-15.jpg" alt="摄影作品 15" loading="lazy" data-lightbox><figcaption data-i18n="photo.c15">静物观察</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-16.jpg" alt="摄影作品 16" loading="lazy" data-lightbox><figcaption data-i18n="photo.c16">旅途瞬间</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-17.jpg" alt="摄影作品 17" loading="lazy" data-lightbox><figcaption data-i18n="photo.c17">人文现场</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/gallery-18.jpg" alt="摄影作品 18" loading="lazy" data-lightbox><figcaption data-i18n="photo.c18">光线练习</figcaption></figure>
+        <figure class="photo-card wide reveal"><img src="assets/gallery-19.jpg" alt="摄影作品 19" loading="lazy" data-lightbox><figcaption data-i18n="photo.c19">远景</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="page" id="practice" data-page="practice">
+      <div class="page-heading reveal">
+        <p class="eyebrow">Social Practice</p>
+        <h2 data-i18n="practice.title">社会实践</h2>
+        <p data-i18n="practice.lead">将调研、影像记录和内容传播结合起来，完成从现场观察到成果表达的闭环。</p>
+      </div>
+      <div class="practice-layout">
+        <article class="detail-card large reveal">
+          <p class="time" data-i18n="practice.time">2024 暑期</p>
+          <h3 data-i18n="practice.cardTitle">“百千万工程”暑期社会实践</h3>
+          <p data-i18n="practice.body1">参与基层调研、视频拍摄、材料整理与成果传播，围绕地方文化、产业观察与青年实践进行内容输出，并获评暑期百千万实践活动优秀个人。</p>
+          <p data-i18n="practice.body2">视频作品《含情明城 光沐沧江》记录实践过程与地方观察，呈现社会实践中的人物、场景与叙事线索。</p>
+        </article>
+        <div class="video-card reveal">
+          <video controls preload="metadata">
+            <source src="media/social-practice-video.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="life" data-page="life">
+      <div class="page-heading reveal">
+        <p class="eyebrow">Life Photos</p>
+        <h2 data-i18n="life.title">生活照</h2>
+        <p data-i18n="life.lead">旅行、校园活动、会议现场与日常片段中的个人记录。</p>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-card tall reveal"><img src="assets/life-01.jpg" alt="生活照 1" loading="lazy" data-lightbox><figcaption data-i18n="life.c1">模联现场</figcaption></figure>
+        <figure class="photo-card wide reveal"><img src="assets/life-02.jpg" alt="生活照 2" loading="lazy" data-lightbox><figcaption data-i18n="life.c2">水边夜色</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/life-03.jpg" alt="生活照 3" loading="lazy" data-lightbox><figcaption data-i18n="life.c3">雪山行记</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/life-04.jpg" alt="生活照 4" loading="lazy" data-lightbox><figcaption data-i18n="life.c4">海岸蓝调</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/life-05.jpg" alt="生活照 5" loading="lazy" data-lightbox><figcaption data-i18n="life.c5">北京漫步</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/life-06.jpg" alt="生活照 6" loading="lazy" data-lightbox><figcaption data-i18n="life.c6">会场纪实</figcaption></figure>
+        <figure class="photo-card wide reveal"><img src="assets/life-07.jpg" alt="生活照 7" loading="lazy" data-lightbox><figcaption data-i18n="life.c7">落日晚风</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/life-08.jpg" alt="生活照 8" loading="lazy" data-lightbox><figcaption data-i18n="life.c8">毕业典礼</figcaption></figure>
+        <figure class="photo-card tall reveal"><img src="assets/life-09.jpg" alt="生活照 9" loading="lazy" data-lightbox><figcaption data-i18n="life.c9">城市河岸</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/life-10.jpg" alt="生活照 10" loading="lazy" data-lightbox><figcaption>VIP Lounge</figcaption></figure>
+        <figure class="photo-card wide reveal"><img src="assets/life-11.jpg" alt="生活照 11" loading="lazy" data-lightbox><figcaption data-i18n="life.c11">广交会团队</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/life-12.jpg" alt="生活照 12" loading="lazy" data-lightbox><figcaption data-i18n="life.c12">广交会片刻</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="page" id="contact" data-page="contact">
+      <div class="page-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2 data-i18n="contact.title">联系方式</h2>
+        <p data-i18n="contact.lead">欢迎通过邮箱联系我。</p>
+      </div>
+      <div class="contact-panel reveal">
+        <a href="mailto:1465959753@qq.com">1465959753@qq.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer.text">© 2026 黎浩明。用于学术与职业展示的个人主页。</p>
+  </footer>
+
+  <div class="lightbox" data-lightbox-modal aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="关闭图片" data-i18n-aria-label="lightbox.close">×</button>
+    <img src="" alt="">
+    <p></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
