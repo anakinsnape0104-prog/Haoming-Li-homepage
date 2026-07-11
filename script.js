@@ -199,7 +199,7 @@ const translations = {
     "education.lead": "Bachelor student in Financial Engineering at the School of Finance, Guangdong University of Foreign Studies.",
     "education.time": "Sep 2023 - Jul 2027",
     "education.school": "Guangdong University of Foreign Studies / School of Finance",
-    "education.body": "Major in Financial Engineering, GPA 3.68/4.0. Core coursework includes Advanced Algebra, Python, Econometrics, Corporate Finance, Financial Economics, and Quantitative Investment.",
+    "education.body": "Major in Financial Engineering, GPA 3.7/4.0. Core coursework includes Advanced Algebra, Python, Econometrics, Corporate Finance, Financial Economics, and Quantitative Investment.",
     "education.course1": "Econometrics 94",
     "education.course2": "Corporate Finance 95",
     "education.course3": "Quantitative Investment 100",
